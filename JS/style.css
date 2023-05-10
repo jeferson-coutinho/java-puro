@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	background: linear-gradient(to right bottom, #1e3c72, #2a5298, #3c678d, #4b7b8e, #5e8d89);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	width: 50vw;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	margin: 40px auto;
+}
+
+.photo {
+	height: 80%;
+
+}
+
+.photo img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
